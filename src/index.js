@@ -1,12 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-class App extends React.Component{
-  render(){
-    return(
-      <h1>app</h1>
-    )
-  }
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style/common.css';
+import App from './App';
 
-render(<App />,document.getElementById('root'));
+render(<App /> ,document.getElementById('root'));
