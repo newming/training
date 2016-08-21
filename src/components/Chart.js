@@ -14,7 +14,8 @@ class Chart extends React.Component{
       h2:{
         fontSize:'36px',
         color:'#e7210e',
-        marginBottom:'18px'
+        marginBottom:'18px',
+        fontWeight:'600'
       },
       span:{
         color:'#282828'
@@ -43,7 +44,7 @@ class Chart extends React.Component{
         <div className="short-line"></div>
         <p style={styles.title}>学员平均薪资高出一般工程师</p>
         <img src={ChartImg} style={styles.img} />
-        <a className="search-more">了解更多行业资讯 > </a>
+        <a className="search-more" href='#'>了解更多行业资讯 > </a>
       </div>
     )
   }

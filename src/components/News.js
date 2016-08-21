@@ -14,7 +14,8 @@ class News extends React.Component{
         textAlign:'center',
         fontSize:'36px',
         color:'#e7210e',
-        marginBottom:'18px'
+        marginBottom:'18px',
+        fontWeight:'600'
       },
       span:{
         color:'#282828'
