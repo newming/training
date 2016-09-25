@@ -1,21 +1,17 @@
 import React from 'react';
-import Logo1 from '../images/logo1.jpg';
-import Logo2 from '../images/logo2.jpg';
-import Logo3 from '../images/logo3.jpg';
-import Logo4 from '../images/logo4.jpg';
-import Logo5 from '../images/logo5.jpg';
-import Logo6 from '../images/logo6.jpg';
-import Logo7 from '../images/logo7.jpg';
-import Logo8 from '../images/logo8.jpg';
 
-import Pers1 from '../images/pers1.jpg';
-import Pers2 from '../images/pers2.jpg';
-import Pers3 from '../images/pers3.jpg';
-import Pers4 from '../images/pers4.jpg';
-import Pers5 from '../images/pers5.jpg';
-import Pers6 from '../images/pers6.jpg';
-import Pers7 from '../images/pers7.jpg';
-import Pers8 from '../images/pers8.jpg';
+import Per1 from '../images/per1.jpg';
+import Per2 from '../images/per2.jpg';
+import Per3 from '../images/per3.jpg';
+import Per4 from '../images/per4.jpg';
+import Per5 from '../images/per5.jpg';
+import Per6 from '../images/per6.jpg';
+import Per7 from '../images/per7.jpg';
+import Per8 from '../images/per8.jpg';
+import Per9 from '../images/per9.jpg';
+import Per10 from '../images/per10.jpg';
+import Per11 from '../images/per11.jpg';
+import Per12 from '../images/per12.jpg';
 
 class CooCard extends React.Component{
   render(){
@@ -31,7 +27,8 @@ class CooCard extends React.Component{
         textAlign:'center',
         width:'100%',
         padding:'5px 0',
-        backgroundColor:'#fff'
+        backgroundColor:'#fff',
+        lineHeight:'42px'
       },
       pers:{
         width:'100%'
@@ -42,22 +39,57 @@ class CooCard extends React.Component{
         <div className="coo-card">
           <div className="coo-list">
             <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo1} />
-              </div>
-              <img src={Pers1} style={styles.pers} />
+              {/*
+                <div style={styles.logo}>
+                  <span>北京开普勒科技有限公司</span>
+                </div>
+              */}
+              <img src={Per1} style={styles.pers} />
+            </div>
+            <h3>白占红</h3>
+            <p>就职： 东云创达公司</p>
+            <p>薪资： <span>8000</span>/月</p>
+            <p>毕业院校： 秦皇岛职业技术学院</p>
+          </div>
+          <div className="coo-list">
+            <div className="coo-img">
+              <img src={Per2} style={styles.pers} />
+            </div>
+            <h3>徐元良</h3>
+            <p>就职： 北京联众</p>
+            <p>薪资： <span>15000</span>/月</p>
+            <p>毕业院校： 东北石油大学秦皇岛分校</p>
+          </div>
+          <div className="coo-list">
+            <div className="coo-img">
+              <img src={Per3} style={styles.pers} />
+            </div>
+            <h3>边冠洲</h3>
+            <p>就职： 北京彩球世纪科技</p>
+            <p>薪资： <span>9000</span>/月</p>
+            <p>毕业院校： 东北石油大学秦皇岛分校</p>
+          </div>
+          <div className="coo-list">
+            <div className="coo-img">
+              <img src={Per4} style={styles.pers} />
+            </div>
+            <h3>杜丽婷</h3>
+            <p>就职： 北京汉唐自远技术</p>
+            <p>薪资： <span>9500</span>/月</p>
+            <p>毕业院校： 燕山大学里仁学院</p>
+          </div>
+          <div className="coo-list">
+            <div className="coo-img">
+              <img src={Per5} style={styles.pers} />
             </div>
             <h3>郝小军</h3>
-            <p>就职： 乐视</p>
-            <p>薪资： <span>15000</span>/月</p>
+            <p>就职： 北京用友</p>
+            <p>薪资： <span>20000</span>元/月</p>
             <p>毕业院校： 河北科技师范学院</p>
           </div>
           <div className="coo-list">
             <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo2} />
-              </div>
-              <img src={Pers2} style={styles.pers} />
+              <img src={Per6} style={styles.pers} />
             </div>
             <h3>戴金明</h3>
             <p>就职： 北京链家地产</p>
@@ -66,75 +98,57 @@ class CooCard extends React.Component{
           </div>
           <div className="coo-list">
             <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo3} />
-              </div>
-              <img src={Pers3} style={styles.pers} />
+              <img src={Per7} style={styles.pers} />
             </div>
-            <h3>姜 文</h3>
-            <p>就职： 百度</p>
-            <p>薪资： <span>13000</span>/月</p>
-            <p>毕业院校： 东北石油</p>
-          </div>
-          <div className="coo-list">
-            <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo4} />
-              </div>
-              <img src={Pers4} style={styles.pers} />
-            </div>
-            <h3>孙璐璐</h3>
-            <p>就职： 优酷土豆</p>
-            <p>薪资： <span>15000</span>/月</p>
+            <h3>孟冬梅</h3>
+            <p>就职： 小米科技</p>
+            <p>薪资： <span>10000</span>/月</p>
             <p>毕业院校： 河北科技师范学院</p>
           </div>
           <div className="coo-list">
             <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo5} />
-              </div>
-              <img src={Pers5} style={styles.pers} />
+              <img src={Per8} style={styles.pers} />
             </div>
-            <h3>余 昊</h3>
-            <p>就职： 网易</p>
-            <p>薪资： <span>30万</span>元/年</p>
-            <p>毕业院校： 武汉大学</p>
+            <h3>钮亚峰</h3>
+            <p>就职： 京北方信息技术有限公司</p>
+            <p>薪资： <span>10000</span>/月</p>
+            <p>毕业院校： 河北科技师范学院</p>
           </div>
           <div className="coo-list">
             <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo6} />
-              </div>
-              <img src={Pers6} style={styles.pers} />
+              <img src={Per9} style={styles.pers} />
             </div>
-            <h3>张军雅</h3>
-            <p>就职： HTC</p>
-            <p>薪资： <span>15000</span>/月</p>
-            <p>毕业院校： 南京艺术师范学院</p>
+            <h3>申健萍</h3>
+            <p>就职： 清华同方</p>
+            <p>薪资： <span>10000</span>/月</p>
+            <p>毕业院校： 沈阳航空航天大学</p>
           </div>
           <div className="coo-list">
             <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo7} />
-              </div>
-              <img src={Pers7} style={styles.pers} />
+              <img src={Per10} style={styles.pers} />
             </div>
-            <h3>王少静</h3>
-            <p>就职： 小米科技</p>
-            <p>薪资： <span>15000</span>/月</p>
-            <p>毕业院校： 河北理工大学</p>
-          </div>
-          <div className="coo-list">
-            <div className="coo-img">
-              <div style={styles.logo}>
-                <img src={Logo8} />
-              </div>
-              <img src={Pers8} style={styles.pers} />
-            </div>
-            <h3>孔 越</h3>
-            <p>就职： 搜狐sohu</p>
+            <h3>杨 强</h3>
+            <p>就职： 北京中科云谱物联技术公司</p>
             <p>薪资： <span>12000</span>/月</p>
-            <p>毕业院校： 沈阳大学</p>
+            <p>毕业院校： 辽宁大学</p>
+          </div>
+          <div className="coo-list">
+            <div className="coo-img">
+              <img src={Per11} style={styles.pers} />
+            </div>
+            <h3>朱海伦</h3>
+            <p>就职： 我爱</p>
+            <p>薪资： <span>11000</span>/月</p>
+            <p>毕业院校： 沈阳工程学院</p>
+          </div>
+          <div className="coo-list">
+            <div className="coo-img">
+              <img src={Per12} style={styles.pers} />
+            </div>
+            <h3>杨 武</h3>
+            <p>就职： 北京开普勒科技有限公司</p>
+            <p>薪资： <span>9000</span>/月</p>
+            <p>毕业院校： 沈阳工程学院</p>
           </div>
         </div>
       </div>

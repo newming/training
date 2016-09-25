@@ -55,17 +55,31 @@ class Employ extends React.Component{
               </thead>
               <tbody>
                 <tr>
-                  <td>用友B2C研发部招聘</td>
-                  <td>UI设计师</td>
+                  <td>爱奇艺</td>
+                  <td>web前端开发</td>
                   <td style={{color:'#f6001d'}}>10k-20k</td>
-                  <td>经验3-5年</td>
+                  <td>经验不限</td>
                   <td>更多></td>
                 </tr>
                 <tr>
-                  <td>用友B2C研发部招聘</td>
-                  <td>UI设计师</td>
+                  <td>爱奇艺</td>
+                  <td>web前端开发</td>
+                  <td style={{color:'#f6001d'}}>15k-27k</td>
+                  <td>一年以上</td>
+                  <td>更多></td>
+                </tr>
+                <tr>
+                  <td>国美美信</td>
+                  <td>web前端开发</td>
                   <td style={{color:'#f6001d'}}>10k-20k</td>
-                  <td>经验3-5年</td>
+                  <td>一年以上</td>
+                  <td>更多></td>
+                </tr>
+                <tr>
+                  <td>乐视</td>
+                  <td>web前端开发</td>
+                  <td style={{color:'#f6001d'}}>15k-30k</td>
+                  <td>三年以上</td>
                   <td>更多></td>
                 </tr>
               </tbody>
