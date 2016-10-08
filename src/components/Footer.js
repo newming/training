@@ -12,7 +12,7 @@ class Footer extends React.Component{
       },
       container:{
         width:'100%',
-        maxWidth:'1270px',
+        maxWidth:'1090px',
         margin:'0 auto',
         paddingTop:'40px',
         paddingBottom:'20px',
@@ -38,7 +38,7 @@ class Footer extends React.Component{
       katong:{
         position:'absolute',
         width:'100%',
-        left:'80%',
+        left:'100%',
         bottom:'-20px'
       }
     }
@@ -68,7 +68,6 @@ class Footer extends React.Component{
             <input type="text" defaultValue="请输入手机号" style={styles.input}/><br/>
             <button style={styles.button}>报名领取助学金</button>
           </div>
-          <div className="foot-right"></div>
         </div>
       </div>
     )
