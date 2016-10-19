@@ -34,7 +34,7 @@ class Works extends React.Component{
       },
     }
     return(
-      <div style={styles.root}>
+      <div style={styles.root} id="works">
         <h2 style={styles.h2}>零基础<span style={styles.span}>入学，</span>4个月<span style={styles.span}>拥有两年项目经验</span></h2>
         <p style={styles.p}>Zero base entrance, 4 months, with two years experience in project</p>
         <div className="short-line" style={{marginBottom:'30px'}}></div>

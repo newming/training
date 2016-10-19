@@ -73,7 +73,7 @@ class Step extends React.Component{
     }
     return(
       <div style={styles.root}>
-        <div style={styles.step1}>
+        <div style={styles.step1} id="course">
           <img src={Step1} style={styles.img}/>
           <p style={styles.p}>pc端模块：<span style={styles.span}>div＋css网站重构，浏览器兼容，网站交互特效，数据交互技术，面向对象编程思想及模块化开发原理</span></p>
           <p style={styles.p}>移动端模块：<span style={styles.span}>css3动画，响应式设计，H5开发，微信场景开发技术，Web App开发</span></p>
@@ -83,7 +83,7 @@ class Step extends React.Component{
             <a className="search-more" href='#'>了解详细课程内容 > </a>
           </div>
         </div>
-        <div style={styles.step1}>
+        <div style={styles.step1} id="teacher">
           <img src={Step2} style={styles.img}/>
           <div className="step-card">
             <div>
@@ -116,7 +116,7 @@ class Step extends React.Component{
             <a className="search-more" href='#'>查看更多师资信息 > </a>
           </div>
         </div>
-        <div style={styles.step3}>
+        <div style={styles.step3} id="course-design">
           <img src={Step3} style={styles.img}/>
           <p style={styles.p}>企业项目实战教学，学习＝工作<span style={styles.span}>，课程内容根据企业招聘需求更新，毕业即可顺利进入工作状态</span></p>
           <div className="project-card">

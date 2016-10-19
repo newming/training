@@ -50,7 +50,7 @@ class Cooperate extends React.Component{
         <Slider />
         <CooCard />
         <div style={styles.btn}>
-          <a className="search-more" href='#'>查看更多师资信息 > </a>
+          <a className="search-more" href='#'>查看更多学员信息 > </a>
         </div>
         <h2 style={styles.h2}><span style={styles.span}>他们已经实现了</span>完美蜕变<span style={styles.span}>，月薪万元</span>只需一个电话</h2>
         <img src={Ok} style={styles.img}/>
