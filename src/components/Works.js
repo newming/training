@@ -18,7 +18,8 @@ class Works extends React.Component{
         fontSize:'36px',
         color:'#e7210e',
         marginBottom:'18px',
-        fontWeight:'600'
+        fontWeight:'600',
+        padding:'0 10px'
       },
       span:{
         color:'#282828'
@@ -26,6 +27,7 @@ class Works extends React.Component{
       p:{
         color:'#7b7b7b',
         textAlign:'center',
+        padding:'0 10px',
         textTransform:'uppercase'
       },
       btn:{

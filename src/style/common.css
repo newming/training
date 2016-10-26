@@ -37,7 +37,7 @@ body{
 
 .news-card{
   width: 100%;
-  padding: 10px 35px;
+  padding: 10px 20px;
   float: left;
 }
 @media(min-width:760px){
@@ -253,5 +253,23 @@ body{
 .foot-right{
   float: left;
   width: 50%;
-  position: relative;
+}
+.katong{
+  width:50%;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+@media(max-width:700px) {
+  .foot-left{
+    width: 100%;
+  }
+  .foot-right{
+    width: 100%;
+  }
+}
+
+/*menu*/
+.navbar{
+  margin-bottom: 0;
 }

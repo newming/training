@@ -15,7 +15,8 @@ class News extends React.Component{
         fontSize:'36px',
         color:'#e7210e',
         marginBottom:'18px',
-        fontWeight:'600'
+        fontWeight:'600',
+        padding:'0 10px'
       },
       span:{
         color:'#282828'
@@ -23,6 +24,7 @@ class News extends React.Component{
       p:{
         color:'#ee7973',
         textAlign:'center',
+        padding:'0 10px',
         textTransform:'uppercase'
       },
       subSpan:{

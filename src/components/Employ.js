@@ -12,7 +12,8 @@ class Employ extends React.Component{
         margin:'0 auto'
       },
       p:{
-        fontSize:'18px'
+        fontSize:'18px',
+        padding:'0 10px'
       },
       btn:{
         textAlign:'center',
@@ -23,7 +24,7 @@ class Employ extends React.Component{
         marginTop:'40px',
         borderTop:'7px solid #f6001d',
         backgroundColor:'#f4f4f4',
-        padding:'30px',
+        padding:'20px',
         boxShadow:'0 0 10px 1px rgba(0, 0, 0, 0.2)'
       },
       table:{

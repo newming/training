@@ -28,12 +28,14 @@ class Step extends React.Component{
         width:'100%',
         maxWidth:'1090px',
         margin:'0 auto',
-        borderBottom:'1px solid #ccc'
+        borderBottom:'1px solid #ccc',
+        padding:'0 10px'
       },
       step3:{
         width:'100%',
         maxWidth:'1090px',
         margin:'0 auto',
+        padding:'0 10px'
       },
       img:{
         width:'100%',
